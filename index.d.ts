@@ -484,11 +484,6 @@ declare module "react-native-admob-native-ads" {
    */
   export function CallToActionView(props: CallToActionViewProps): JSX.Element;
 
-  /**
-   * A Star Rating View to show the star rating for the app ads that you might recieve from
-   * the server.
-   */
-  export function StarRatingView(props: StarViewProps): JSX.Element;
 
   export const TestIds: {
     Video: string;
